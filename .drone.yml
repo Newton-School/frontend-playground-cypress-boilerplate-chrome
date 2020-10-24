@@ -4,7 +4,7 @@ name: default
 
 steps:
   - name: run-test-cases
-    image: cypress/base
+    image: cypress/browsers:chrome69
     when:
       status:
       - failure
