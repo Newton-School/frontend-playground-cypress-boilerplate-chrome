@@ -9,5 +9,5 @@ try {
     });
   console.log(JSON.stringify(jsonData));
 } catch(err) {
-  console.log('Could not read JSON file. Error: ', err)
+  console.log('Error in parsing JSON file: ', err)
 }
